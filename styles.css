@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+body {
+	background-color: #000c08;
+}
+hr {
+	color: #abafae;
+	padding-top: 2px;
+}
+#first {
+	
+}
+#second {
+	background-color: #000c08;
+}
+.head-text {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	max-width: 100%;
+}
+.head-text h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 100px;
+	text-shadow: #021410 0 0 30px;
+}
+.head-text h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	color: #abafae;
+	font-size: 30px;
+}
+.portfolio-text {
+	width: 100%;
+	max-width: 100%;
+}
+.portfolio-text h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 50px;
+}
+.col-12 h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	color: #abafae;
+	font-size: 30px;
+}
+.col-12 h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	color: #575f5c;
+	font-size: 20px;
+	word-spacing: 7px;
+	line-height: 30px;
+}
+.card {
+	width: 330px;
+	background-color: #00281e;
+	border: 0;
+	height: 175px;
+}
+.card-body h4 {
+	position: absolute;
+	top: 85%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	color: #ffffff;
+	font-size: 26px;
+}
+.hyperlink {
+	text-decoration: none;
+}
+@media screen and (max-width: 1399px) {
+	.head-text {
+		top: 34%;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.head-text {
+		top: 28%;
+	}
+}
+@media screen and (max-width: 991px) {
+	.head-text {
+		top: 200px;
+	}
+}
